@@ -50,3 +50,41 @@ header {
     border: 2px solid #4A343A;
     border-radius: 15px;
 }
+
+main {
+    height: 65vh;
+}
+
+
+Footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #F6D6E0;
+    color: #4A343A;
+}
+
+footer > div {
+    display: flex;
+}
+
+.div-footer {
+    width: 33%;
+}
+.div-footer h2 {
+    margin-bottom: 15px;
+}
+
+.div-footer p {
+    margin-bottom: 10px;
+}
+
+footer span {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+
+
