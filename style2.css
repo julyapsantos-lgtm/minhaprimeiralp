@@ -52,11 +52,10 @@ header {
 }
 
 main {
-    height: 65vh;
 }
 
 
-Footer {
+footer {
     display: flex;
     flex-direction: column;
     background-color: #F6D6E0;
@@ -84,7 +83,69 @@ footer span {
     margin-top: 30px;
 }
 
+.main {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+}
+
+.texto {
+    display: flex;
+    width: 50%;
+    gap: 2rem;
+    flex-direction: column;
 
 
+}
 
+.texto button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
 
+#div-buttons {
+
+}
+
+.botao1 {
+    background-color: #D98FA5;
+    color: white;
+    border: 2px solid #D98FA5;
+}
+
+.botao2 {
+    background-color: #FFF7F0;
+    color: #4A343A;
+    border: 2px solid #4A343A;
+}
+
+.painel {
+    background-color: #F6D6E0;
+    height: 13rem;
+    width: 50%;
+    border-radius: 1rem;
+    display: flex;
+}
+
+#painel-interno {
+    width: 100%;
+    background-color: #D98FA5;
+    height: 88%;
+    bottom: -2rem;
+    position: relative;
+    border-radius: 0px 0px 1rem 1rem;
+}
+
+.vermelho {
+    color: red;
+}
+
+.amarelo {
+    color: yellow;
+}
+
+.verde {
+    color: green;
+}
