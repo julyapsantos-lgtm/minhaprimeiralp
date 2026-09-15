@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF7F0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 10px ;
+    background-color: #F6D6E0;
+    border: 3px solid #4A343A;
+    border-radius: 20px;
+}
+
+.div-logo {
+    width: 25%;
+}
+
+.div-logo img {
+    width: 50px;
+}
+
+.div-menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 50%;
+}
+
+.div-menu p {
+    color: #4A343A;
+}
+
+.div-botao {
+    display: flex;
+    justify-content: flex-end;
+    width: 25%;
+}
+
+.div-botao button {
+    padding: 10px 20px;
+    background-color: #D98FA5;
+    color: white;
+    border: 2px solid #4A343A;
+    border-radius: 15px;
+}
+
+main {
+    padding: 40px;
+}
+
+.imagem-principal {
+    display: flex;
+    justify-content: center;
+    background-color: #F6D6E0;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.imagem-principal img {
+    width: 50%;
+    height: 250px;
+}
+
+.div-quemsomos {
+    display: flex;
+    gap: 40px;
+    margin-top: 25px;
+}
+
+.texto-quemsomos {
+    width: 60%;
+    background-color: #F6D6E0;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.imagem-quemsomos {
+    width: 40%;
+}
+
+.imagem-quemsomos img {
+    width: 100%;
+    height: 250px;
+}
+
+.div-objetivos {
+    display: flex;
+    gap: 40px;
+    margin-top: 25px;
+}
+
+.imagem-objetivos {
+    width: 40%;
+}
+
+.imagem-objetivos img {
+    width: 100%;
+    height: 250px;
+}
+
+.texto-objetivos {
+    width: 60%;
+    background-color: #F6D6E0;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+h2 {
+    color: #4A343A;
+    margin-bottom: 15px;
+}
+
+main p {
+    color: #4A343A;
+}
