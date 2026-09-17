@@ -51,3 +51,95 @@ header {
     border-radius: 15px;
 }
 
+main {
+    padding: 30px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    background-color: #F6D6E0;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.titulo h1 {
+    color: #4A343A;
+}
+
+
+.produtos {
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.caixas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 75%;
+}
+
+.caixa {
+    width: 25%;
+    padding: 10px;
+    border: 2px solid #4A343A;
+    border-radius: 15px;
+    text-align: center;
+    background-color: white;
+}
+
+.caixa img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.caixa p {
+    color: #4A343A;
+    margin-top: 8px;
+}
+
+.caixa span {
+    color: #D98FA5;
+}
+
+
+.imagem-lateral img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #F6D6E0;
+    color: #4A343A;
+}
+
+footer > div {
+    display: flex;
+}
+
+.div-footer {
+    width: 33%;
+}
+.div-footer h2 {
+    margin-bottom: 15px;
+}
+
+.div-footer p {
+    margin-bottom: 10px;
+}
+
+footer span {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
